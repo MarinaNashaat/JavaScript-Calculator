@@ -131,7 +131,7 @@ button:active {
     outline: none;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:320px) {
     html,
     body {
         overflow: hidden;
