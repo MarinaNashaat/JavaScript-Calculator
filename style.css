@@ -1,3 +1,7 @@
+@viewport {
+    width: device-width;
+}
+
 body {
     background-color: #e6ffff;
 }
@@ -125,4 +129,21 @@ button:active {
     background-color: #ff0000;
     border: 1px soild #ff0000;
     outline: none;
+}
+
+@media screen and (max-width:400px) {
+    html,
+    body {
+        overflow: hidden;
+    }
+    .calc_card {
+        top: -50px;
+        width: 270px;
+    }
+    .buttons {
+        width: 250px;
+    }
+    button {
+        width: 50px;
+    }
 }
